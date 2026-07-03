@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="knapp1" onclick="checkNumber()">Kontrollera</button>
+<input type="number" id="input1">
+<p id="p1"></p>
+
+<script>
+function checkNumber() {
+    let checktal = document.getElementById("input1").value;
+    let result = document.getElementById("p1");
+    if (checktal == ""){
+        result.innerHTML = "ogiltigt värde";
+    }
+    else {
+        let tal = Number(checktal);
+        if (tal < 0){
+            result.innerHTML = "Talet är negativt";
+        }
+        else if (tal > 0) {
+            result.innerHTML = "Talet är positivt";
+        }
+        else {
+            result.innerHTML = "Talet är 0";
+        }
+    }
+}
+</script>
+</body>
+</html>

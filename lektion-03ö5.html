@@ -1,5 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!--- 
 parseInt
 parseFloat
 Number():
 trim
 isNaN:
+-->
+
+<script>
+    let tal1 = Number(prompt("Skriv in ett tal").trim());
+    let tal2 = Number(prompt("Skriv in ett tal").trim());
+    if (isNaN(tal1)){ // det här är redudant, vi testar om värdet är ett tal redan i prompten med Number()
+        console.log("Ogiltigt värde för tal1");
+    }
+    else if (isNaN(tal2)){
+        console.log("Ogiltigt värde för tal2");
+    }
+    else {
+        let resultat = (tal1 * tal2)
+        console.log("Resultatet är", resultat)
+    }
+</script>
+
+</body>
+</html>

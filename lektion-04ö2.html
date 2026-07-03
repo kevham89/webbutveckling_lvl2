@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<center>
+<button id="knapp1" onclick="togglebox()">Klicka här</button>
+<div id="inputbox" style="display: none;">
+    <h1>Skriv in två heltal</h1>
+    <label for="tal1">Tal1</label>
+    <input type="number" id="input1" name="tal1"><br>
+    <label for="tal2">Tal2</label>
+    <input type="number" id="input2" name="tal2"><br><br>
+    <button id="knapp2" onclick="calcTriangle()">Beräkna</button>
+</div>
+<p id="resultat"></p>
+<script>
+    function togglebox() {
+        let inputbox = document.getElementById("inputbox")
+        if (inputbox.style.display === "none") {
+            inputbox.style.display = "block"
+        }
+        else {
+            inputbox.style.display = "none"
+        }
+        }
+    function calcTriangle() {
+        let input1 = document.getElementById("input1").value;
+        let input2 = document.getElementById("input2").value;
+        if (!input1 || !input2 || isNaN(input1) || isNaN(input2) || input1 <= 0 || input2 <= 0) {
+
+            document.getElementById("resultat").innerText = "Ogiltigt värde";
+            return;
+        }
+        else {
+            let area = input1 * input2
+            document.getElementById("resultat").innerText = "Arean är " + area + " kvadratmeter";
+        }
+
+    }
+</script>
+</center>
+</body>
+</html>
