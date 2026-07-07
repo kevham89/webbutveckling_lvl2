@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<!-- document.write används inte längre, det är osäkert och kan skapa problem. Bättre att använda en selektor och ändra innehållet.
+
+    <script>
+        window.onload = function(){
+            document.write("Document title: " + document.title + "<br>")
+            document.write("App Name: " + navigator.appName + "<br>")
+            document.write("Version: " + navigator.appVersion)
+        }
+    </script>
+
+-->
+
+    <div id="info"></div>
+    <script>
+        window.onload = function(){
+            document.getElementById("info").innerHTML =
+            "Document title: " + document.title + "<br>" +
+            "App Name: " + navigator.appName + "<br>" +
+            "Version: " + navigator.appVersion
+        }
+    </script>
+
+
+
+</body>
+</html>
