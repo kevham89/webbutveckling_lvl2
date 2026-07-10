@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="bilder">
+        <img width="300" height="300" src="https://images.unsplash.com/photo-1518791841217-8f162f1e1131" alt="En katt som tittar mot kameran">
+        <img width="300" height="300" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" alt="En laptop på ett skrivbord">
+        <img width="300" height="300" src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" alt="En grön skog med höga träd">
+    </div>
+    <div id="altText"> </div>
+    <script>
+        window.onload = function(){
+            let bilder = document.querySelectorAll("img");
+            let text = "";
+
+            bilder.forEach(function(bild){
+                text += bild.getAttribute("alt") + "<br>";
+            });
+            document.getElementById("altText").innerHTML = text;
+        }
+    </script>
+
+
+
+</body>
+</html>

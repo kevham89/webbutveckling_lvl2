@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <!-- 
+    navbar skapar navigationsmeny
+    navbar-expand-lg expanderar horisontellt från lg och uppåt (ihopfälld på små skärmar)
+    navbar-dark ger ljus text
+    bg-dark ger mörk bakgrund  
+    -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <!-- container centrerar innehållet och lägger till marginaler -->
+        <div class="container">
+            <!-- navbar-brand är logo-->
+            <a class="navbar-brand" href="#">Navbar</a>
+            <!-- 
+            navbar-toggler är hamburgermeny
+            data-bs-toggle="collapse" aktiverar bootstrap-funktionen
+            data-bs-target="menu" kopplar knappen till ID
+            -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <!-- ikonen som visas i toggler-knappen -->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- collapse navbar-collapse betyder att menyn kan fällas ihop, måste matcha ID-->
+            <div class="collapse navbar-collapse" id="menu">
+                <!-- 
+                navbar-nav är listan med navigationslänkar
+                ms-auto (m)argin(s)tart auto flyttar menyn åt höger
+                -->
+                <ul class="navbar-nav ms-auto">
+                    <!-- nav-item är varje menyval-->
+                    <li class="nav-item">
+                        <!-- nav-link är själva länken -->
+                        <a class="nav-link" href="#">Hem</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Projekt</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>    
+</body>
+</html>
