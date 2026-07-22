@@ -1,0 +1,215 @@
+<bibliotek>
+
+  
+    <bok>
+        <titel>Ditt första jobb som programmerare</titel>
+        <författare>Pierre Gergi</författare>
+    </bok>
+
+    <bok>
+        <titel>Ditt första jobb som IT-driftstekniker</titel>
+        <författare>Pierre Gergi</författare>
+    </bok>
+
+  
+    <bok>
+        <titel>Python från grunden</titel>
+        <författare>Anna Svensson</författare>
+    </bok>
+
+    <bok>
+        <titel>Avancerad Python</titel>
+        <författare>Erik Johansson</författare>
+    </bok>
+
+    <bok>
+        <titel>Lär dig JavaScript</titel>
+        <författare>Omar Ali</författare>
+    </bok>
+
+    <bok>
+        <titel>Modern Webbutveckling</titel>
+        <författare>Sara Nilsson</författare>
+    </bok>
+
+    <bok>
+        <titel>HTML och CSS i praktiken</titel>
+        <författare>Maria Lind</författare>
+    </bok>
+
+    <bok>
+        <titel>React för nybörjare</titel>
+        <författare>David Karlsson</författare>
+    </bok>
+
+    <bok>
+        <titel>Node.js steg för steg</titel>
+        <författare>Johan Berg</författare>
+    </bok>
+
+    <bok>
+        <titel>Databaser med SQL</titel>
+        <författare>Linda Andersson</författare>
+    </bok>
+
+    <bok>
+        <titel>NoSQL och MongoDB</titel>
+        <författare>Ahmed Hassan</författare>
+    </bok>
+
+    <bok>
+        <titel>Introduktion till AI</titel>
+        <författare>Lisa Pettersson</författare>
+    </bok>
+
+    <bok>
+        <titel>Maskininlärning i praktiken</titel>
+        <författare>Thomas Eriksson</författare>
+    </bok>
+
+    <bok>
+        <titel>Dataanalys med Python</titel>
+        <författare>Caroline Holm</författare>
+    </bok>
+
+    <bok>
+        <titel>Cybersäkerhet grundkurs</titel>
+        <författare>Markus Lund</författare>
+    </bok>
+
+    <bok>
+        <titel>Etisk hacking</titel>
+        <författare>Daniel Svensson</författare>
+    </bok>
+
+    <bok>
+        <titel>Nätverksteknik CCNA</titel>
+        <författare>Peter Nilsson</författare>
+    </bok>
+
+    <bok>
+        <titel>Linux administration</titel>
+        <författare>Oskar Lindberg</författare>
+    </bok>
+
+    <bok>
+        <titel>Windows Server 2022</titel>
+        <författare>Fredrik Dahl</författare>
+    </bok>
+
+    <bok>
+        <titel>Cloud Computing med AWS</titel>
+        <författare>Emma Larsson</författare>
+    </bok>
+
+    <bok>
+        <titel>Microsoft Azure från start</titel>
+        <författare>Jonas Wikström</författare>
+    </bok>
+
+    <bok>
+        <titel>DevOps och CI/CD</titel>
+        <författare>Martin Ek</författare>
+    </bok>
+
+    <bok>
+        <titel>Docker och Kubernetes</titel>
+        <författare>Hanna Björk</författare>
+    </bok>
+
+    <bok>
+        <titel>Agil projektledning</titel>
+        <författare>Sofia Nyström</författare>
+    </bok>
+
+    <bok>
+        <titel>Scrum i praktiken</titel>
+        <författare>Rickard Olsson</författare>
+    </bok>
+
+    <bok>
+        <titel>Systemutvecklingens grunder</titel>
+        <författare>Andreas Falk</författare>
+    </bok>
+
+    <bok>
+        <titel>Programmering i C#</titel>
+        <författare>Henrik Åström</författare>
+    </bok>
+
+    <bok>
+        <titel>Java för systemutvecklare</titel>
+        <författare>Karin Holmberg</författare>
+    </bok>
+
+    <bok>
+        <titel>Mobilapputveckling med Flutter</titel>
+        <författare>Niklas Bergman</författare>
+    </bok>
+
+    <bok>
+        <titel>UX och UI design</titel>
+        <författare>Julia Sandberg</författare>
+    </bok>
+
+    <bok>
+        <titel>Git och versionshantering</titel>
+        <författare>Patrik Lindqvist</författare>
+    </bok>
+
+    <bok>
+        <titel>Testdriven utveckling</titel>
+        <författare>Elin Gustafsson</författare>
+    </bok>
+
+    <bok>
+        <titel>Objektorienterad programmering</titel>
+        <författare>Magnus Sjöberg</författare>
+    </bok>
+
+    <bok>
+        <titel>Algoritmer och datastrukturer</titel>
+        <författare>Simon Berg</författare>
+    </bok>
+
+    <bok>
+        <titel>Big Data analys</titel>
+        <författare>Victor Lundgren</författare>
+    </bok>
+
+    <bok>
+        <titel>IoT och inbyggda system</titel>
+        <författare>Albin Ström</författare>
+    </bok>
+
+    <bok>
+        <titel>Blockchain teknologi</titel>
+        <författare>Isak Nyberg</författare>
+    </bok>
+
+    <bok>
+        <titel>AI i utbildning</titel>
+        <författare>Camilla Öberg</författare>
+    </bok>
+
+    <bok>
+        <titel>Digital transformation</titel>
+        <författare>Robert Ekman</författare>
+    </bok>
+
+    <bok>
+        <titel>IT-support och felsökning</titel>
+        <författare>Samuel Lindström</författare>
+    </bok>
+
+    <bok>
+        <titel>Informationssäkerhet och GDPR</titel>
+        <författare>Therese Holm</författare>
+    </bok>
+
+    <bok>
+        <titel>Projektledning för IT-team</titel>
+        <författare>Alexander Norén</författare>
+    </bok>
+
+</bibliotek>
